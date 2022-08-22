@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!--this is a log in details-->
+    <!--the link icon and css am making use of an external and inline css
+    thanks for understanding -->
+    <!--all images will be from the internet.-->
+    <link rel="icon" href="#">
+    <!--the css id differed from the index css-->
+    <link rel="stylesheet" type="text/css" href="signup.css">
+    <title>log in</title>
+</head>
+<body>
+    <!--this place should be beside it other-->
+    <h1 class="welcome">register</h1>
+    <form class="form">
+      <div>
+        <label for="name">full name:</label><br>
+        <input type="text" placeholder="Full Name" required autofocus>
+        <label for="user-name">user-name:</label><br>
+        <input type="text" placeholder="user-name" required>
+      </div>
+      <div>
+        <label for="e-mail">E-mail:</label><br>
+        <input type="email" placeholder="example@email.com" required>
+        <legend for="phone-number">phone-number:</legend>
+        <select name="country_name">
+            <option value="nigeria">Nig(+234)</option>
+            <option value="USA">USA(+123)</option>
+        </select>
+        <input type="tel"required>
+      </div>
+      <div>
+        <label for="gender">gender</label><br>
+        <select name="gender">
+            <option value="boys">male</option>
+            <option value="girls">female</option>
+            <option value="other gens">other</option>
+        </select><br>
+        <label  for="D.O.B">Date of Birth:</label><br>
+        <input type="date" required>
+      </div>
+      <div>
+        <label for="password">create a password:</label><br>
+        <input type="password" placeholder="password" required>
+        <label for="reusepassword">re-enter the password:</label><br>
+        <input type="text" required >
+      </div>
+    </form>
+    <button>create account</button>
+</body>
+</html>

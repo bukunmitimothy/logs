@@ -1,0 +1,87 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+body{
+    background-image: url(https://media.istockphoto.com/photos/asian-businesswoman-standing-smiling-at-the-camera-picture-id1335295926?b=1&k=20&m=1335295926&s=170667a&w=0&h=6TEcLiO3JwNG3VL2O1LLWGdFgUulikOMqG1cAGixf-E=);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+.welcome{
+    color: blue;
+    font-family: cursive;
+    font-size: 200%;
+    text-transform: uppercase;
+    text-align: center;
+    cursor: progress;
+    margin: 45px;
+}
+.form{
+    text-transform: capitalize;
+    width: 90%;
+    background-color: burlywood;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 12px;
+    height: 300px;
+    font-style: normal;
+    font-size: 150%;
+    color: blue;
+    display: flex;
+    scroll-behavior: smooth;
+    overflow: scroll;
+    overflow-wrap: normal;
+    overflow-y: hidden;
+    scroll-behavior: auto;
+    overflow-wrap: break-word;
+}
+div{
+    padding: 12px;
+    border: none;
+    margin: 12px;
+    text-align: center;
+    border-radius: 5px;
+   /* background-color: whitesmoke;*/
+    font-family: monospace;
+}
+input{
+    margin-top: 12px;
+    width: 300px;
+    height: 10px;
+    padding: 25px;
+    border-radius: 5px;
+    border-style: none;
+    color: blue;
+}
+select{
+    width: 200px;
+    margin-top: 5px;
+    border: none;
+    border-bottom: 1px solid;
+    height: 20px;
+    padding-left: 20px;
+    color:blue ;
+    text-transform: capitalize;
+}
+div:hover{
+    background-image: url(https://media.istockphoto.com/photos/portrait-of-angry-young-asian-woman-playing-game-on-mobile-isolated-picture-id1372499862?b=1&k=20&m=1372499862&s=170667a&w=0&h=uIalYCvzbmTYwlaeUuLJ8_xNXYik540ZWARuYYMalmA=);
+    border: none;
+}
+button{
+    margin-left: 400px;
+    width: 150px;
+    height: 20px;
+    font-style: normal;
+    font-size: 100%;
+    text-transform: capitalize;
+    color: blue;
+    border: none;
+}
+/*
+button:hover{
+    background-image: url(https://media.istockphoto.com/photos/contemporary-senior-woman-spends-time-with-a-smartphone-mature-woman-picture-id1406202649?b=1&k=20&m=1406202649&s=170667a&w=0&h=DldbxNXuB8up7Nx2UJgr5-QNOKJJztLyrrLxtepCC-s=);
+}
+*/
